@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Luffy2ndAccount/zokou-2.0-versionVF /root/my_app
+RUN git clone https://github.com/papaigwe1234/KAMB-version-VF /root/my_app
 WORKDIR /root/my_app/
 
 
